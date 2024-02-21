@@ -1,5 +1,5 @@
 # Module: providers and backends
-# Author: oanikienko
+# Author: oanikienko, mguzzoc
 # Date: 19/11/2023
 
 # == Libraries == #
@@ -228,7 +228,7 @@ if __name__ == "__main__":
     # Defining the service to use
     ibm_quantum_service = QiskitRuntimeService(
                                 channel="ibm_quantum",
-                                token="69aa86585a48bc18de1dd1cddad4010b14f2a2c13224a158cc534c9870b3fcc38baaace69d25e1f39528f05a363f0811aa79b9dd28b4e942d2f70b7aa2a90d86", # TODO put here the api token from IBM Quantum
+                                token="", # TODO put here the api token from IBM Quantum
                                 instance="ibm-q/open/main"
                               )
 
